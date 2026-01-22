@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Environment files
+.env
+*.env
+venv/
+env/
+.venv/
+
+# macOS specific files
+.DS_Store
+
+# PyTorch model files (optional, if you don't want to push large models)
+models/*.pth
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
