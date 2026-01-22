@@ -27,3 +27,39 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+How to Run
+
+Preprocess data:
+
+python3 churn_preprocessing.py
+
+
+Train the model:
+
+python3 train_pytorch_mlp.py
+
+
+Run the Streamlit app:
+
+python3 -m streamlit run app.py
+
+Dataset
+
+The dataset used is data/Telco-Customer-Churn.csv (downloaded from Kaggle).
+
+License
+
+This project is for educational purposes.
+
+
+---
+
+### **3️⃣ Next Steps**  
+
+1. Create `.gitignore` and `README.md` in your project folder.  
+2. Stage and commit them:
+
+```bash
+git add .gitignore README.md
+git commit -m "Add .gitignore and README"
+git push
